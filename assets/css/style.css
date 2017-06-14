@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+/* primera sección*/
+
+.bienvenida{
+	background: url('../img/header-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.navbar-default{
+	background-color: transparent;
+	border: none;
+}
+
+.contenido-home{
+	padding: 200px 0;
+}
+
+/*cambio color a un enlace en el navbar*/
+
+.enlace{
+	color: #ec9f16;
+}
+
+/*sección services*/
+.titulo-services{
+	padding-top: 50px;
+	font-weight: bold;
+}
+
+.parrafo-services{
+	padding-bottom: 50px;
+}
+
+
+.icono-services{
+	width: 50%;
+}
+
+.titulo-icono-services{
+	font-weight: bold;
+}
+
+.parrafo-services-2{
+	padding-bottom: 50px;
+}
+
+/* tercera sección portfolio*/
+
+.portfolio{
+	background: #D3D3D3;
+}
+
+.titulo-portfolio{
+	padding-top: 50px;
+	font-weight: bold;
+}
+
+.parrafo-portfolio{
+	padding-bottom: 50px;
+}
+
+
+.titulo-img-portfolio{
+	font-weight: bold;
+}
+
+.img-portfolio{
+	width: 100%;
+}
+
