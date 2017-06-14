@@ -49,7 +49,7 @@ body{
 }
 
 .parrafo-services-2{
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 }
 
 /* tercera sección portfolio*/
@@ -76,3 +76,32 @@ body{
 	width: 100%;
 }
 
+/*quinta sección team*/ 
+
+.titulo-team{
+	padding-top: 50px;
+	font-weight: bold;
+}
+
+.parrafo-team{
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+/*sexta sección publicidad*/
+
+.publicidad{
+	padding: 50px;
+}
+
+/*séptima sección contacto*/
+.contacto{
+	background: url('../img/mundo.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.contacto{
+	padding: 100px 0;
+}
