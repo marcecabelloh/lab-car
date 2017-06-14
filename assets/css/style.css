@@ -15,6 +15,10 @@ body{
 	color: white;
 }
 
+.navbar{
+	position: fixed;/*ver como darle color cuando baja*/
+}
+
 .navbar-default{
 	background-color: transparent;
 	border: none;
@@ -108,6 +112,21 @@ body{
 	width: 100%;
 }
 
+/*secion about*/
+
+.about{
+	padding:80px;
+}
+
+.titulo-about{
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.parrafo-about{
+	padding-bottom: 50px;
+}
+
 /*quinta sección team*/ 
 
 .titulo-team{
@@ -138,13 +157,34 @@ body{
 
 /*séptima sección contacto*/
 .contacto{
-	background: url('../img/mundo.jpg');
+	background: black;
+	
+}
+
+.titulo-contact{
+	font-weight: bolder;
+	font-size: 30px;
+	color: white;
+}
+
+.parrafo-contact{
+	color: white;
+	padding-bottom: 30px;
+}
+
+.contenedor{
+	background: url(../img/map-image.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	padding:60px;
 }
 
 .contacto{
 	padding: 100px 0;
+}
+
+.boton-contacto{
+	margin-top: 30px;
 }
 
