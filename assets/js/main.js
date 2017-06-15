@@ -18,7 +18,8 @@ $(document).ready(function(){
 });
 
 
-//función para validar los campos del formulario. NO corre!!!!
+/*función para validar los campos del formulario. NO corre!!!! sacado del código creado del trabajo en grupo  
+buscaba replicarlo y poder hacerlo correr.
 
 function validacion(){
   //se llaman ids de inputs
