@@ -15,9 +15,6 @@ body{
 	color: white;
 }
 
-.navbar{
-	position: fixed;/*ver como darle color cuando baja*/
-}
 
 .navbar-default{
 	background-color: transparent;
@@ -25,9 +22,30 @@ body{
 }
 
 .navbar-brand.logo{/*cambiar letra,color y tamaño del logo*/
-	color: yellow;
+	color: #fdd136;
 	font-family: 'Kaushan Script', cursive;
 	font-size: 30px;
+}
+
+/*IMPORTANTE para cambiar color letra enlaces*/
+.navbar-default .navbar-nav > li > a{
+	color: white;
+}
+
+/*IMPORTANTE para hover en enlaces de navbar*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #fdd136;
+    color: white;
+}
+
+/*IMPORTANTE PARA CAMBIAR COLOR A HAMBURGUESA CUANDO ES VISTO DESDE UN CELULAR */
+.navbar-default .navbar-toggle{
+  background-color: #fdd136;
+}
+
+/*importante para cambiar color de icon-bar las lineas de la hamburguesa a color blanco*/
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
 }
 
 .contenido-home{
@@ -49,7 +67,7 @@ body{
 .boton{
 	width:250px;
 	padding: 20px;
-	background: yellow;
+	background: #fdd136;
 	color: white;
 }
 
@@ -127,6 +145,15 @@ body{
 	padding-bottom: 50px;
 }
 
+.img-paint{
+	width: 200px;
+}
+
+.titulo-img-about{
+	font-weight: bolder;
+	font-size: 15px;
+}
+
 /*quinta sección team*/ 
 
 .titulo-team{
@@ -147,6 +174,10 @@ body{
 
 .redessoc{
 	width: 30px;
+}
+
+.redessoc:hover{
+	background-color:black;
 }
 
 /*sexta sección publicidad*/

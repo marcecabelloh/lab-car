@@ -6,7 +6,7 @@
 	<title>Lab Studio</title>
 	<script src="https://use.fontawesome.com/6bff936249.js"></script> 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
-	 <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Playfair+Display" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans|Playfair+Display" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -15,7 +15,7 @@
 <!-- primera seccion -->
 	<section class="bienvenida">
 		<!-- navbar -->
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default navbar-fixed-top" id="navbar">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -23,7 +23,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
-					</button>
+						</button>
 					<a class="navbar-brand logo" href="#">Start Bootstrap</a>
 				</div>
 
@@ -34,6 +34,7 @@
 						<li><a href="#">ABOUT</a></li>
 						<li><a href="#">TEAM</a></li>
 						<li><a href="#" class="enlace">CONTACT</a></li>
+						<li><a href="#">MENÚ</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
@@ -57,8 +58,8 @@
 
 	<!-- inicio services -->
 	<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-xs-12 text-center">
+		<div class="row">
+			<div class="col-md-12 col-xs-12 text-center">
 						<h3 class="titulo-services text-center">SERVICES</h3>
 						<P class="parrafo-services text-center"><em>Lorem ipsum dolor sit amet consectetur</em></P>
 						</div>
@@ -154,60 +155,64 @@
 <!-- inicio about -->
 <section class="about">
 	<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-xs-12 text-center">
-						<h3 class="titulo-about text-center">ABOUT</h3>
-						<P class="parrafo-about text-center"><em>Lorem ipsum dolor sit amet consectetur</em></P>
+		<div class="row">
+			<div class="col-md-12 col-xs-12 text-center">
+				<h3 class="titulo-about text-center">ABOUT</h3>
+					<P class="parrafo-about text-center"><em>Lorem ipsum dolor sit amet consectetur</em></P>
 						</div>
 					<!-- primera linea -->
-					<div class="row">
+				<div class="row">
 					<div class="col-md-4 col-xs-12">
 						<h5 class="titulo-img-about text-right">2009-2011<br>Our Humble Beginnings</h5>
 						<p class="parrafo-about-2 text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur veritatis maiores enim, quis tempora officiis in commodi atque recusandae, cumque. Nemo ipsum assumenda ut est inventore voluptates explicabo, ipsam dolores?</p>
-					</div>
-					<div class="col-md-4 col-xs-12">
-						<img src="assets/img/1.jpg" alt="" class="img-about img-circle img-thumbnail">	
-					</div>
-					</div><br>
+				</div>
+
+				<div class="col-md-4 col-xs-12">
+					<img src="assets/img/1.jpg" alt="" class="img-about img-circle img-thumbnail">	
+				</div>
+				</div><br>
 					
 					<!-- segunda línea -->
-					<div class="row">
+				<div class="row">
 					<div class="col-md-4 col-xs-12 col-md-offset-4">
 						<img src="assets/img/2.jpg" alt="" class="img-about img-circle img-thumbnail">	
-					</div>
-					<div class="col-md-4 col-xs-12">
-						<h5 class="titulo-img-about text-left">MARCH 2011<br>An Agency is Born</h5>
-						<p class="parrafo-about-2 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur veritatis maiores enim, quis tempora officiis in commodi atque recusandae, cumque. Nemo ipsum assumenda ut est inventore voluptates explicabo, ipsam dolores?</p>
-					</div>
-					</div><br>
+				</div>
+					
+				<div class="col-md-4 col-xs-12">
+					<h5 class="titulo-img-about text-left">MARCH 2011<br>An Agency is Born</h5>
+					<p class="parrafo-about-2 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur veritatis maiores enim, quis tempora officiis in commodi atque recusandae, cumque. Nemo ipsum assumenda ut est inventore voluptates explicabo, ipsam dolores?</p>
+				</div>
+				</div><br>
 
 					<!-- tercera línea -->
-					<div class="row">
+				<div class="row">
 					<div class="col-md-4 col-xs-12">
 						<h5 class="titulo-img-about text-right">DECEMBER 2012<br>Transition to Full Service</h5>
 						<p class="parrafo-about-2 text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur veritatis maiores enim, quis tempora officiis in commodi atque recusandae, cumque. Nemo ipsum assumenda ut est inventore voluptates explicabo, ipsam dolores?</p>
 					</div>
-					<div class="col-md-4 col-xs-12">
-						<img src="assets/img/3.jpg" alt="" class="img-about img-circle img-thumbnail">	
-					</div>
-					</div><br>
+
+				<div class="col-md-4 col-xs-12">
+					<img src="assets/img/3.jpg" alt="" class="img-about img-circle img-thumbnail">	
+				</div>
+				</div><br>
 
 					<!-- cuarta línea -->
-					<div class="row">
+				<div class="row">
 					<div class="col-md-4 col-xs-12 col-md-offset-4">
 						<img src="assets/img/2.jpg" alt="" class="img-about img-circle img-thumbnail">	
 					</div>
-					<div class="col-md-4 col-xs-12">
-						<h5 class="titulo-img-about text-left">JULY 2014<br>Phase Two Expansion</h5>
-						<p class="parrafo-about-2 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur veritatis maiores enim, quis tempora officiis in commodi atque recusandae, cumque. Nemo ipsum assumenda ut est inventore voluptates explicabo, ipsam dolores?</p>
-					</div>
-					</div><br>
 
-					<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<h5 class="titulo-img-about text-left">JULY 2014<br>Phase Two Expansion</h5>
+					<p class="parrafo-about-2 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur veritatis maiores enim, quis tempora officiis in commodi atque recusandae, cumque. Nemo ipsum assumenda ut est inventore voluptates explicabo, ipsam dolores?</p>
+				</div>
+				</div><br>
+
+				<div class="row">
 					<div class="col-md-4 col-xs-12 col-md-offset-4">
-						<img src="assets/img/2.jpg" alt="" class="img-about img-circle img-thumbnail">	
+						<img src="assets/img/img-paint.png" alt="" class="img-about img-circle img-thumbnail img-paint">	
 					</div>
-					</div>
+				</div>
 
 				</div>
 			</div>
@@ -221,43 +226,44 @@
 <!-- inicio sección team -->
 <section class="portfolio">
 	<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-xs-12 text-center">
-						<h3 class="titulo-team text-center">OUR AMAZING TEAM</h3>
-						<P class="parrafo-team text-center"><em>Lorem ipsum dolor sit amet consectetur</em></P>
-						</div>
+		<div class="row">
+			<div class="col-md-12 col-xs-12 text-center">
+				<h3 class="titulo-team text-center">OUR AMAZING TEAM</h3>
+				<P class="parrafo-team text-center"><em>Lorem ipsum dolor sit amet consectetur</em></P>
+			</div>
 
-					<div class="row">
-					<div class="col-md-4 col-xs-12 text-center">
-						<img src="assets/img/1 (1).jpg" alt="team" class="img-team img-circle img-thumbnail">
-						<h5 class="titulo-team-1">KAY GARLAND</h5>
-						<p>Lead Designer</p>
-						<a><img src="assets/img/tw-01.png" class="redessoc"></a>
-						<a><img src="assets/img/fb-01.png" class="redessoc"></a>
-						<a><img src="assets/img/in-01.png" class="redessoc"></a>
-					</div>
+		<div class="row">
+			<div class="col-md-4 col-xs-12 text-center">
+				<img src="assets/img/1 (1).jpg" alt="team" class="img-team img-circle img-thumbnail">
+				<h5 class="titulo-team-1">KAY GARLAND</h5>
+				<p>Lead Designer</p>
+				<a><img src="assets/img/tw-01.png" class="redessoc"></a>
+				<a><img src="assets/img/fb-01.png" class="redessoc"></a>
+				<a><img src="assets/img/in-01.png" class="redessoc"></a>
+			</div>
 
-					<div class="col-md-4 col-xs-12 text-center">
-						<img src="assets/img/2 (1).jpg" alt="team" class="img-team img-circle img-thumbnail">
-						<h5 class="titulo-team-1">Larry Parker</h5>
-						<p>Lead Marketer</p>
-						<a><img src="assets/img/tw-01.png" class="redessoc"></a>
-						<a><img src="assets/img/fb-01.png" class="redessoc"></a>
-						<a><img src="assets/img/in-01.png" class="redessoc"></a>
-					</div>
+		<div class="col-md-4 col-xs-12 text-center">
+			<img src="assets/img/2 (1).jpg" alt="team" class="img-team img-circle img-thumbnail">
+			<h5 class="titulo-team-1">Larry Parker</h5>
+			<p>Lead Marketer</p>
+			<a><img src="assets/img/tw-01.png" class="redessoc"></a>
+			<a><img src="assets/img/fb-01.png" class="redessoc"></a>
+			<a><img src="assets/img/in-01.png" class="redessoc"></a>
+		</div>
 
-					<div class="col-md-4 col-xs-12 text-center">
-						<img src="assets/img/3 (1).jpg" alt="team" class="img-team img-circle img-thumbnail">
-						<h5 class="titulo-team-1">Diana Pertersen</h5>
-						<p>Lead Developer</p>
-						<a><img src="assets/img/tw-01.png" class="redessoc"></a>
-						<a><img src="assets/img/fb-01.png" class="redessoc"></a>
-						<a><img src="assets/img/in-01.png" class="redessoc"></a>
-					</div>
+		<div class="col-md-4 col-xs-12 text-center">
+			<img src="assets/img/3 (1).jpg" alt="team" class="img-team img-circle img-thumbnail">
+			<h5 class="titulo-team-1">Diana Pertersen</h5>
+			<p>Lead Developer</p>
+			<a><img src="assets/img/tw-01.png" class="redessoc"></a>
+			<a><img src="assets/img/fb-01.png" class="redessoc"></a>
+			<a><img src="assets/img/in-01.png" class="redessoc"></a>
+		</div>
 
-					<div class="col-md-12 col-xs-12 text-center">
-						<P class="parrafo-team text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde rem, veritatis totam voluptatum aliquam? Veritatis cupiditate et aspernatur aperiam modi, temporibus labore quaerat, delectus ab dignissimos id unde veniam!</P>
-						</div>
+		<div class="col-md-12 col-xs-12 text-center">
+			<P class="parrafo-team text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde rem, veritatis totam voluptatum aliquam? Veritatis cupiditate et aspernatur aperiam modi, temporibus labore quaerat, delectus ab dignissimos id unde veniam!</P>
+		</div>
+
 				</div>
 			</div>
 		</div>
@@ -267,26 +273,26 @@
 
 <!-- sección publicidad -->
 <section class="publicidad">
-<div class="container">
-			<div class="row">
-				<div class="col-md-3 col-xs-12 text-center">
-					<img src="assets/img/envato.jpg" alt="publicidad">
-				</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-xs-12 text-center">
+				<img src="assets/img/envato.jpg" alt="publicidad">
+			</div>
 
 				<div class="col-md-3 col-xs-12 text-center">
 					<img src="assets/img/designmodo.jpg" alt="publicidad">
 				</div>
 
-				<div class="col-md-3 col-xs-12 text-center">
-					<img src="assets/img/themeforest.jpg" alt="publicidad">
-				</div>
+					<div class="col-md-3 col-xs-12 text-center">
+						<img src="assets/img/themeforest.jpg" alt="publicidad">
+					</div>
 
-				<div class="col-md-3 col-xs-12 text-center">
-					<img src="assets/img/creative-market.jpg" alt="publicidad">
+						<div class="col-md-3 col-xs-12 text-center">
+							<img src="assets/img/creative-market.jpg" alt="publicidad">
+						</div>
+					</div>
 				</div>
-			</div>
-		<div>
-</section>
+		</section>
 <!-- termino sección publicidad -->
 
 <!-- sección contact us -->
@@ -301,19 +307,19 @@
 			<div class="row">
 				<div class="col-md-6 col-xs-12">
 					<div class="form-group">
-						<input type="text" class="form-control input-lg" id="usr" placeholder="YOUR NAME*">
+						<input type="text" class="form-control input-lg input-box" id="usr" placeholder="YOUR NAME*">
 					</div>
 						<div class="form-group">
-							<input type="password" class="form-control input-lg" id="pwd" placeholder="YOUR EMAIL*">
+							<input type="email" class="form-control input-lg input-box" id="email" placeholder="YOUR EMAIL*">
 						</div>
 							<div class="form-group">
-								<input type="tel" class="form-control input-lg" id="tel" placeholder="YOUR PHONE*"></textarea>
+								<input type="tel" class="form-control input-lg input-box" id="tel" placeholder="YOUR PHONE*"></textarea>
 							</div>
 						</div>
 
 							<div class="col-md-6 col-xs-12">
 								<div class="form-group">
-									<textarea class="form-control" rows="8" id="comment" placeholder="YOUR MESSAGE*"></textarea>
+									<textarea class="form-control input-box" rows="8" id="comment" placeholder="YOUR MESSAGE*"></textarea>
 								</div>
 							</div>
 						</div>
@@ -328,7 +334,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-xs-12 text-center">
-					<p>Copyright Your Website 2016</p>
+					<p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Your Website 2016</p> 
 					<a><img src="assets/img/tw-01.png" class="redessoc"></a>
 					<a><img src="assets/img/fb-01.png" class="redessoc"></a>
 					<a><img src="assets/img/in-01.png" class="redessoc"></a>
